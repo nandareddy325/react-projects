@@ -1,0 +1,160 @@
+.product .card img{
+  width: 100%;
+  height: 250px;
+}
+.product .card .images img{
+  width: 100%;
+  height: 100%;
+}
+.product .card .card-body p{
+  height: 75px;
+  font-size: 15px;
+  text-align: center;
+}
+.loginpage{
+  height: 100vh;
+}
+/* ----------------------------------------------------------------------------- */
+.mainnavbar .forminput div form{
+  position: relative;
+  height: 42px;
+  background-color: rgb(235, 233, 230);
+  border-radius: 5px;
+
+}
+.mainnavbar .forminput div form a {
+
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  position: absolute;
+  background-color:transparent;
+  top: 0;
+
+}
+.mainnavbar .forminput div form input{
+  position: absolute;
+  top: 0;
+  width: 90%;
+  left: 40px;
+  height: 40px;
+  border: none;
+  background-color:transparent;
+}
+.mainnavbar .forminput div form input:focus{outline: none;}
+.mainnavbar .icons .fa-ellipsis-vertical{
+  width: 40px;
+  height: 40px;
+  line-height: 20px;
+  text-align: center;
+  border: 2px solid transparent;
+  transition: all .9s linear;
+}
+.mainnavbar .icons .fa-ellipsis-vertical:hover{
+  border: 2px solid wheat;
+}
+/* -------------------------------------------------------- */
+.images .imgcontent img{
+  height: 60px;
+  width: 100%;
+  transition: all .5s linear;
+}
+.images .imgcontent img:hover{
+  transform: scale(1.1);
+  
+}
+.images .imgcontent a{
+  text-decoration: none;
+  color: black;
+}
+footer .header {
+  font-size: 15px;
+  color: dimgrey;
+}
+footer .header .icons a i{
+  border: 1px solid white;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  align-content: center;
+  margin: 5px;
+  border-radius: 50%;
+
+}
+footer a{
+  text-decoration: none;
+  font-size: 13px;
+  color:white;
+  font-weight: bold;
+}
+footer .address{
+  font-size: 13px;
+  color:white;
+}
+footer .address a{
+  color: blue;
+  font-weight: 200;
+}
+.social i{
+  font-size: 13px;
+  color: yellow;
+  padding: 5px;
+}
+.carousel .carousel-inner .carousel-item img{
+  height: 250px;
+  border-radius: 10px;
+  
+}
+.carousel .carousel-indicators button{
+  border-radius: 50%; 
+  background-color:white;
+  width: 10px;
+  height: 10px;
+}
+.carousel .carousel-control-prev, .carousel .carousel-control-next{
+  background-color:black;
+  width: 30px;
+  height: 60px;
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  border-radius: 5px;
+  margin: 10px;
+  border: 2px solid white;
+}
+
+.bestelectronics img{
+  height: 150px;
+  padding: 20px;
+  transition: all .5s linear;
+}
+.bestelectronics img:hover{transform: scale(1.1);}
+
+.owl-carousel{
+  position: relative;
+}
+.owl-carousel   .owl-prev, .owl-carousel .owl-next{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 60px;
+  background-color:black !important;
+  color: white !important;
+  border: 2px solid white !important;
+  outline: 2px solid black !important; 
+  
+}
+.owl-carousel .owl-next{right: 0px;}
+.owl-carousel .owl-prev{left:0px;;}
+.owl-carousel .item img{
+  height: 150px;
+  padding: 20px;
+}
+
+
+
+
+  

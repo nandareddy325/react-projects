@@ -1,0 +1,384 @@
+/*--------------------------Navbar---------------------------------------  */
+.navbar{
+    box-shadow: 0px 0px 10px black;
+}
+.navbar .navbar-brand{
+    width: 100px;
+    height: 60px;
+}
+.navbar .navbar-brand img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transition: all .9s linear;
+    animation: example 4s infinite 4s ;
+}
+@keyframes example {
+    from {border: 2px solid red;}
+      to {border: 2px solid black;}
+}
+.navbar-nav{
+    border-radius: 10px;
+}
+.navbar-nav .nav-item{
+    border-radius: 10px;
+    width: 85px;
+}
+.navbar-nav .nav-item:hover{
+    border-radius: 10px;
+    transition: all 0.4s linear;
+}
+.navbar-nav .nav-item a{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+}
+.navbar-nav .nav-item a:hover{
+    background-color:black; 
+    color: white;
+}
+
+/*------------------------------ Carousel-------------------------------------- */
+.carousel-inner .carousel-item img{
+    height: 480px;
+    width: 100%;
+}
+.progress .progress_1{
+    width: 70%;
+    background-color: red;
+}
+.progress .progress_2{
+    width: 50%;
+    background-color: blue;
+}
+.progress .progress_3{
+    width: 80%;
+    background-color: aqua;
+}
+#About .fa-html5{
+    color: red;
+}
+#About .fa-css3-alt{
+    color: green;
+}
+#About .fa-react{
+    color: rgb(76, 189, 206);
+}
+/*------------------------- Services---------------------------------- */
+.Services .card{
+    width: 100%;
+    height: 250px;
+    transform: translateY(0);
+    transition: all 0.9s linear;
+}
+.Services .card:hover{
+    box-shadow: 0px 0px 10px black;
+    transform: translateY(-10px);
+    border: 1px solid blue;
+}
+.Services .card a{
+    text-decoration: none;
+    width: max-content; 
+}
+.Services .card a i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.9s linear;
+    border: 2px solid white;
+    outline: 1px solid #999;
+}
+.Services .card a i:hover {
+    background-color: blue;
+    color: white; 
+    outline: 1px solid black;
+    border: 2px solid white;
+    transform: rotate(20deg)  ;
+}
+.Services .card a em {
+    transition: all 0.5s linear;
+    position: relative;
+}
+.Services .card a em::before{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 2px;
+    bottom: -5px;
+    left: 0px;
+    background-color: blue;
+    transition: all 0.9s linear;
+}
+.Services .card a em:hover::before{
+    width: 100%;
+}
+.Services .card a em:hover{
+    color: black;
+}
+
+/* -----------------------materialkit------------------------------------ */
+.materialkit .img{
+    background-image: url(Images/image_10.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+.materialkit .img div{
+    opacity: 0;
+    transition: all .9s linear;
+    transform: translateY(90px);
+    
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 10px 50px 10px/50px 10px 50px;  
+    background-color: rgba(25, 35, 34, 0.8);
+}
+.materialkit .img:hover div{
+    opacity: 1;
+    transform: translateY(0px);
+    transition: all .9s linear;
+}
+.materialkit .cards i{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    border: 1px solid black;
+    transition: all .9s linear;
+}
+.materialkit .cards i:hover{
+    background-color: blue;
+    color: white;
+    transition: all .9s linear; 
+}
+
+/*------------------------------------ Workers-------------------------- */
+.Image .imgess{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+ .Image .imgs{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+ }
+ .Image .imgess::before{
+    position: absolute;
+    content: "Images";
+    width: 100%;
+    height:0px;
+    bottom: 0px;
+    text-align: center;
+    background-color: blue;
+    transition: all .5s linear;
+    z-index: 1;
+    color: white;
+    font-weight: bold;
+ }
+ .imgs{
+    transition: all .5s linear;
+ }
+ .imgs:hover{
+    transform: scale(1.2) rotate(5deg);
+ }
+ .Image .imgess:hover::before{
+    height: 35px;
+ }
+/* ------------------------------about------------------------ */
+.Contact {
+    background-image: url(Images/image_10.jpg);
+    background-attachment: fixed;
+    height: 450px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.Contact .about h1 {
+    color: white;
+}
+.Contact .about p{
+    color: white;
+}
+.Contact .about h1{
+    font-size: 40px;
+}
+.Contact .about p{
+    font-size: 18px;
+}
+.About {
+    background-image: url(Images/image_11.jpg);
+    background-attachment: fixed;
+    height: 450px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.About .about h1{
+    color: white;
+}
+.About .about p{
+    color: white;
+}
+.About .about h1{
+    font-size: 40px;
+}
+.About .about p{
+    font-size: 18px;
+}
+/* --------------------------------Team----------------------------------- */
+#Team .teams{
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+#Team .teams img{
+    width: 100%;
+    height: 100%;
+}
+#Team .teams::before{
+    width: 0%;
+    height: 0px;
+    background-color:black;
+    opacity: 0.4;
+    content:"";
+    position: absolute;
+    right: 0;
+    top:0;
+    transition: all .9s linear;
+}
+#Team .teams:hover::before{
+    height: 100%;
+    width: 100%;
+}
+#Team .teams .app{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    color:white;
+    transition: all .9s linear;
+    opacity: 0;
+    transform: translateY(60px);
+}
+#Team .teams:hover .app{
+    opacity: 1;
+    transition: all .9s linear;
+    transform: translateY(-20px);
+}
+#Team .teams .app a{
+    margin: 4px;
+}
+ #Team .teams .app i{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    border: 1px solid blue;
+    transition: all .9s linear;
+
+}
+#Team .teams .app i:hover{
+    border: 1px solid white;
+    background-color: blue;
+    color: white;
+    transition: all .3s linear;
+}
+.bgimages {
+    height: 450px;
+    width: 94%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(Images/image_10.jpg);
+    background-attachment: fixed;
+}
+
+/* -------------------------------------Footer-------------------------------- */
+
+.Footer {
+    background-color: #555;
+  }
+.Footer .icon a{
+    text-decoration: none;
+    gap: 10px;
+}
+.Footer .icon i{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    margin: 3px;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    border-radius: 50%;
+    border: 1px solid #999;
+    transition: all 1.1s linear ;
+}
+.Footer .icon i:hover{
+    background-color: white;
+    color: blue;
+    transition: all 1.1s linear ;
+    font-size: 20px;
+}
+
+.Footer ul li a{
+    color: white;
+    font-size: 18px;
+}
+.Footer ul li a:hover{
+    color:orangered;
+}
+/* -------------------------------------------------@Media Screen-570px and 768------------------------------------- */
+@media only screen and (max-width: 570px) {
+    #Team .teams{
+        height: 200px;
+    }
+    .carousel-inner .carousel-item img{
+        height: 300px;
+    }
+    .materialkit .img{
+        height: 260px;
+    }
+    .bgimages {
+        height: 330px;
+    }
+    .About {
+        height: 250px;
+    }
+    .Contact {
+        height: 250px;
+    }
+    .Contact h1{
+        line-height: 330px;
+    }
+    .materialkit .img div{
+        transform: translateY(50px);
+    }
+
+}
+@media only screen and (min-width: 571px) and (max-width: 768px) {
+    #Team .teams{
+        width: 100%;
+        height: 300px;
+        position: relative;
+    }
+    .carousel-inner .carousel-item img{
+        height: 400px;
+    }
+    .materialkit .img{
+        height: 330px;
+    }
+    .bgimages {height: 300px;}
+}
